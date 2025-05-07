@@ -40,7 +40,6 @@ El backend se ejecutará en `http://localhost:3001`.
 #### Endpoints disponibles:
 - `GET /providers` - Obtener todos los proveedores
 - `POST /providers` - Agregar proveedor
-- `PUT /providers/:name` - Modificar proveedor
 - `DELETE /providers/:name` - Eliminar proveedor
 - `GET /info` - Información general
 - `GET /version` - Versión del sistema
