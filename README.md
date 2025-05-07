@@ -32,7 +32,7 @@ Incluye una API desarrollada en **Node.js con Express (ES6)** y un frontend en *
 ```bash
 cd server
 npm install
-npm run dev
+npm start
 ```
 
 El backend se ejecutará en `http://localhost:3001`.
