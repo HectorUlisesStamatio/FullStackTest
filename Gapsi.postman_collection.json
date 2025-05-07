@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "96413c22-0b76-43ff-b918-e2b8a6d5f949",
+		"name": "Gapsi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37958732"
+	},
+	"item": [
+		{
+			"name": "Create Provider",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Proveedor C\",\n  \"razonSocial\": \"Proveedor A S.A. de C.V.\",\n  \"direccion\": \"Calle Falsa 123\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/providers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"providers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Providers",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/providers/Proveedor C",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"providers",
+						"Proveedor C"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Provider",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/providers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"providers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
